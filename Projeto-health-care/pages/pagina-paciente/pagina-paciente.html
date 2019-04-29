@@ -1,0 +1,63 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Health Care | Página do Paciente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="paciente.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="pag__nav">
+        <div class="container pag__nav-itens">
+            <a href="#">
+                <img src="../../img/logo-site-branca.png" alt="logo-site-branca" class="pag__logo">
+            </a>
+            <ul class="pag__menu-itens">
+                <li><a class="pag__menu-item">Configurações</a></li>
+                <li><a class="pag__menu-item">Logout</a></li>
+                <li><a class="pag__menu-hamburger"><img src="../../img/menu-button.svg" alt="pag__menu-hamburger"></a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <main class="pag-main">
+        <form class="pag__form">
+            <input type="date" placeholder="Data" name="data" class="pag__input" required>
+            <textarea type="text" placeholder="Diário alimentar" name="alimentacao" class="pag__input" required></textarea>
+            <input type="text" placeholder="Medicação" name="medicacao" class="pag__input" required>
+            <input type="text" placeholder="Fisioterapia / Exercícios do dia" name="fisioterpia" class="pag__input"
+                required>
+            <button type="submit" class="pag__button">Enviar relatório</button>
+        </form>
+
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Alimentação</th>
+                <th>Medicação</th>
+                <th>Fisioterapia/Exercícios</th>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td><button><img src="../../img/icone-editar.png" alt="editar"> </button></td>
+                <td><button><img src="../../img/icone-deletar.png" alt="deletar"> </button></td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2019. Developed by <a href="https://github.com/gabrieladaltoe">Gabriela Dal Toé Fortuna</a></p>
+    </footer>
+
+</body>
+
+</html>

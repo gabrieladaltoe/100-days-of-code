@@ -1,0 +1,57 @@
+.pag__nav{
+    background-color: #aaa9a9;
+    padding: 10px 0;
+}
+
+.pag__nav-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pag__logo{
+    width: auto;
+    height: 80px;
+}
+
+.pag__menu-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.pag__menu-itens img{
+    width: auto;
+    height: 50px;
+    display: none;
+}
+
+.pag__nav ul li a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.pag__nav ul li a:hover{
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.pag__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag__input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #616161;
+    padding: 10px;
+    width: 300px;
+    background-color: transparent;
+    text-align: center;
+}

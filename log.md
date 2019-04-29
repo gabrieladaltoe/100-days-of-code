@@ -7,6 +7,13 @@
 **Thoughts:** I really struggled starting this challenge, but overall I think this will be a great adventure.
 
 
+### Day 1: April 29, 2019
+
+**Today's Progress**: Coding the basics: HTML and CSS of the Health Care Site.
+
+**Thoughts:** The project is starting to get its form and I'm anxious to code the scrip.js.
+
+
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
