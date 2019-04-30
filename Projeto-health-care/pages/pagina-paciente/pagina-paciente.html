@@ -28,36 +28,41 @@
 
     <main class="pag-main">
         <form class="pag__form">
-            <input type="date" placeholder="Data" name="data" class="pag__input" required>
-            <textarea type="text" placeholder="Diário alimentar" name="alimentacao" class="pag__input" required></textarea>
+            <input type="date" placeholder="Data" name="data" class="pag__input date-data" data-date=""
+                data-date-format="DD MMMM YYYY" value="2019-04-04" required onchange="inputDate">
+            <textarea type="text" placeholder="Diário alimentar" name="alimentacao" class="pag__input pag__textarea"
+                required></textarea>
             <input type="text" placeholder="Medicação" name="medicacao" class="pag__input" required>
             <input type="text" placeholder="Fisioterapia / Exercícios do dia" name="fisioterpia" class="pag__input"
                 required>
-            <button type="submit" class="pag__button">Enviar relatório</button>
+            <button type="submit" class="button-purple">Enviar relatório</button>
         </form>
 
-        <table>
-            <tr>
-                <th>Data</th>
-                <th>Alimentação</th>
-                <th>Medicação</th>
-                <th>Fisioterapia/Exercícios</th>
-            </tr>
-            <tr>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td><button><img src="../../img/icone-editar.png" alt="editar"> </button></td>
-                <td><button><img src="../../img/icone-deletar.png" alt="deletar"> </button></td>
-            </tr>
-        </table>
+        <section class="pag__paciente--data container">
+            <table class="pag__pacient--table">
+                <tr>
+                    <th>Data</th>
+                    <th>Alimentação</th>
+                    <th>Medicação</th>
+                    <th>Fisioterapia/Exercícios</th>
+                </tr>
+                <tr class="pag__pacient--data">
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td class="pag__pacient--button btn-edit"><button><img src="../../img/icone-editar.png" alt="editar"> </button></td>
+                    <td class="pag__pacient--button btn-delete"><button><img src="../../img/icone-deletar.png" alt="deletar"> </button></td>
+                </tr>
+            </table>
+        </section>
     </main>
 
     <footer>
         <p>Copyright &copy; 2019. Developed by <a href="https://github.com/gabrieladaltoe">Gabriela Dal Toé Fortuna</a></p>
     </footer>
 
+    <script type="text/javascript" src="../../script.js"></script>
 </body>
 
 </html>

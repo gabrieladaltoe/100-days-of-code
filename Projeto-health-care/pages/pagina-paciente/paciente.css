@@ -1,5 +1,5 @@
 .pag__nav{
-    background-color: #aaa9a9;
+    background-color: rgba(84, 54, 109, 0.671);
     padding: 10px 0;
 }
 
@@ -43,6 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
 }
 
 .pag__input{
@@ -54,4 +55,103 @@
     width: 300px;
     background-color: transparent;
     text-align: center;
+}
+
+.pag__textarea{
+    resize: none;
+    word-break: break-all;
+}
+
+.date-data{
+    font-family: Nunito;
+    font-size: 14px;
+}
+
+.date-data:before {
+    top: 3px; 
+    right: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: rgb(61, 61, 61);
+}
+
+.date-data::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+.indate-dataput::-webkit-calendar-picker-indicator {
+    top: 3px;
+    right: 0;
+    color: rgb(61, 61, 61);
+    opacity: 1;
+}
+
+.pag__paciente--data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag__pacient--table{
+    width: 100%;
+}
+
+.pag__pacient--table th{
+    background-color: rgba(84, 54, 109, 0.671);
+    padding: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    color: #fff;
+}
+
+.pag__pacient--data{
+    background-color: #EEEEEE;
+    padding: 20px 10px;
+    text-align: start;
+    padding: 15px;
+}
+
+.pag__pacient--data td{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #616161;
+}
+
+.pag__pacient--button{
+    text-align: center;
+    background-color: rgba(84, 54, 109, 0.671);
+}
+
+.pag__pacient--data button{
+    border: 0;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: #BAACCE;
+}
+
+.btn-edit{
+    background-color: #A595BD;
+}
+
+.pag__pacient--data button img{
+    width: auto;
+    height: 30px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 12px;
 }

@@ -43,6 +43,24 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.button-purple{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgba(84, 54, 109, 0.671);
+    margin: 30px;
+    border: 0;
+    letter-spacing: 3;
+    font-weight: 300;
+}
+
+.button-purple:hover{
+    background-color: #2d193d;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border: 0;
+}
 
 
 .home-background{
@@ -89,24 +107,6 @@ body{
     text-align: center;
 }
 
-.home__button{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: 10px 30px;
-    border-radius: 5px;
-    background-color: rgba(84, 54, 109, 0.671);
-    margin: 30px;
-    border: 0;
-    letter-spacing: 3;
-    font-weight: 300;
-}
-
-.home__button:hover{
-    background-color: #2d193d;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-    border: 0;
-}
 
 .home__text{
     font-size: 14px;
