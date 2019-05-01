@@ -54,7 +54,7 @@
     padding: 10px;
     width: 300px;
     background-color: transparent;
-    text-align: center;
+    text-align: left;
 }
 
 .pag__textarea{
@@ -62,27 +62,33 @@
     word-break: break-all;
 }
 
-.date-data{
-    font-family: Nunito;
-    font-size: 14px;
+.input-data {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
 }
 
-.date-data:before {
-    top: 3px; 
-    right: 3px;
+.input-data:before {
+    position: absolute;
+    top: 5px; left: 10px;
     content: attr(data-date);
     display: inline-block;
-    color: rgb(61, 61, 61);
+    color: #616161;
+    font-family: Nunito, sans-serif;
+    font-size: 12px;
+
 }
 
-.date-data::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+.input-data::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
     display: none;
 }
 
-.indate-dataput::-webkit-calendar-picker-indicator {
+.input-data::-webkit-calendar-picker-indicator {
+    position: absolute;
     top: 3px;
     right: 0;
-    color: rgb(61, 61, 61);
+    color: black;
     opacity: 1;
 }
 

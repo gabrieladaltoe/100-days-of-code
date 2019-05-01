@@ -28,8 +28,7 @@
 
     <main class="pag-main">
         <form class="pag__form">
-            <input type="date" placeholder="Data" name="data" class="pag__input date-data" data-date=""
-                data-date-format="DD MMMM YYYY" value="2019-04-04" required onchange="inputDate">
+            <input type="date" data-date="" data-date-format="DD MMMM YYYY" value="2019-04-30" class="input-data pag__input" id="inputdata">
             <textarea type="text" placeholder="Diário alimentar" name="alimentacao" class="pag__input pag__textarea"
                 required></textarea>
             <input type="text" placeholder="Medicação" name="medicacao" class="pag__input" required>
@@ -61,7 +60,11 @@
     <footer>
         <p>Copyright &copy; 2019. Developed by <a href="https://github.com/gabrieladaltoe">Gabriela Dal Toé Fortuna</a></p>
     </footer>
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
 </body>
 

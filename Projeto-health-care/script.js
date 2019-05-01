@@ -1,4 +1,4 @@
-$("date-data").on("change", function() {
+$("#inputdata").on("change", function() {
     this.setAttribute(
         "data-date",
         moment(this.value, "YYYY-MM-DD")
