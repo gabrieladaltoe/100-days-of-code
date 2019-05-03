@@ -102,7 +102,7 @@
     width: 100%;
 }
 
-@media (min-width: 767px) {
+/* @media (max-width: 767px) {
     .table-responsive {
         display: block;
         position: relative;
@@ -137,7 +137,7 @@
         display: inline-block;
     }
 
-}    
+}     */
 
 
 .pag__pacient--table th{
