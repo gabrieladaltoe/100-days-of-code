@@ -25,6 +25,12 @@
 
 **Thoughts:** Improving my jquery skills and studing REST API.
 
+### Day 4: May 2, 2019
+
+**Today's Progress**: Today I try something new just for fun and remember a few concepts of JS.
+
+**Thoughts:** Improving my jquery skills and studing JS.
+
 
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
