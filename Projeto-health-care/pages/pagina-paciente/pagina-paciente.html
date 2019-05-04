@@ -29,12 +29,12 @@
     <main class="pag-main">
         <form class="pag__form">
             <input type="date" data-date="" data-date-format="DD MMMM YYYY" value="2019-04-30" class="input-data pag__input"
-                id="inputdata">
+                id="inputdata" >
             <textarea type="text" placeholder="Diário alimentar" name="alimentacao" class="pag__input pag__textarea"
-                required></textarea>
-            <input type="text" placeholder="Medicação" name="medicacao" class="pag__input" required>
+                required id="dieta"></textarea>
+            <input type="text" placeholder="Medicação" name="medicacao" class="pag__input" id="medicacao" required>
             <input type="text" placeholder="Fisioterapia / Exercícios do dia" name="fisioterpia" class="pag__input"
-                required>
+            id="fisioterpia" required>
             <button type="submit" class="button-purple">Enviar relatório</button>
         </form>
 
@@ -48,7 +48,7 @@
                         <th>Fisioterapia</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="pag__tbody">
                     <tr class="pag__pacient--data">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>

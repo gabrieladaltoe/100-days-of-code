@@ -25,11 +25,17 @@
 
 **Thoughts:** Improving my jquery skills and studing REST API.
 
-### Day 4: May 2, 2019
+### Day 5: May 2, 2019
 
 **Today's Progress**: Today I try something new just for fun and remember a few concepts of JS.
 
 **Thoughts:** Improving my jquery skills and studing JS.
+
+### Day 6: May 3, 2019
+
+**Today's Progress**: Create the rows and colums of the pacient's table.
+
+**Thoughts:** Improving my JS skills and studing JS.
 
 
 **Link(s) to work**
